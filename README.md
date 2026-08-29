@@ -16,10 +16,12 @@ Experiments in groups A3, A4, A5, and the Ablation studies rely on Multimodal La
 
 ## 2. Directory Structure
 
+```text
 data/
-├── data/                # Stores input data and output dictionaries for attribute dictionary generation
-├── experience/          # Stores execution scripts and intermediate results for baselines and ablation studies
-└── eval/                # Stores unified evaluation scripts and visualization utilities
+├── data/        # Stores input data and output dictionaries for attribute dictionary generation
+├── experience/  # Stores execution scripts and intermediate results for baselines and ablation studies
+└── eval/        # Stores unified evaluation scripts and visualization utilities
+```
 
 ## 3. Project Modules
 The project architecture strictly adheres to the experimental workflow described in the paper, categorized into three core modules: Orthogonal Dictionary Generation, Baseline & Ablation Experiments, and Unified Metric Evaluation.
